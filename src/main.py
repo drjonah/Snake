@@ -43,9 +43,9 @@ while game_run:
 
         snake.add_body()
         food.start_food()
-        food.spawn()
-    else:
-        food.spawn()
+    
+    # spawn food
+    food.spawn()
 
     # update snake
     snake.update_snake()
